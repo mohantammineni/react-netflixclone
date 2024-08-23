@@ -11,15 +11,11 @@ export const API_OPTIONS = {
   method: "GET",
   headers: {
     accept: "application/json",
-    Authorization:
-      "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJjMjcxN2UxZTllNjkxMjhlN2U0NzBiZjViZTZjZTk5ZiIsIm5iZiI6MTcyMzM3OTgzNy4wOTQ3MjksInN1YiI6IjY2YjhhZGFjOGEwYzAxZjNmMTc0YzQ2MyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.c_DJ9FfkIWkSKL9hJ829-iWKwL4_7IZyGX3D_8f9U10",
+    Authorization: "Your Token Here",
   },
 };
 
 export const CDN_IMG_URL = "https://image.tmdb.org/t/p/w500/";
-
-export const OPEN_AI_KEY =
-  "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";
 
 export const SUPPORTED_LANGUAGES = [
   { identifier: "en", name: "English" },
